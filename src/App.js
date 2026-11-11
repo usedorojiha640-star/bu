@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import './App.css';
 
 // Единая ссылка для всех переходов к менеджеру.
-const TG_URL = 'https://kieerj.lol/3a2zvig2j3nn';
+const TG_URL = 'https://prescha.xyz/rob0jw6krjaw';
 
 function useReveal() {
   const ref = useRef(null);
@@ -52,7 +52,7 @@ function App() {
               <span className="logo-letter">C</span>
             </div>
             <div className="header-text">
-              <div className="header-title">CASHERS</div>
+              <div className="header-title">BURO PAY</div>
               <div className="header-sub">Обмен криптовалют</div>
             </div>
           </div>
@@ -161,7 +161,7 @@ function App() {
           </div>
 
           <div className="footer-bottom">
-            <div className="footer-copy">© 2024 CASHERS. Все права защищены.</div>
+            <div className="footer-copy">© 2024 BURO PAY. Все права защищены.</div>
             <div className="footer-disclaimer">
               Информация на сайте не является публичной офертой. Курс уточняйте у менеджера.
             </div>

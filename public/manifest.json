@@ -1,6 +1,6 @@
 {
-  "short_name": "CASHERS",
-  "name": "CASHERS — Обмен криптовалют по лучшему курсу",
+  "short_name": "BURO PAY",
+  "name": "BURO PAY — Обмен криптовалют по лучшему курсу",
   "description": "Обмен криптовалют по лучшему курсу. USDT, BTC, ETH на наличные. Быстро, безопасно, без комиссий.",
   "start_url": "/",
   "display": "standalone",
