@@ -1,12 +1,25 @@
+
 <!DOCTYPE html>
 <html lang="ru">
   <head>
     <!-- Google Tag Manager -->
-    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TPL2JQHT"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js'
+        });
+
+        var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),
+            dl=l!='dataLayer'?'&l='+l:'';
+
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+
+      })(window,document,'script','dataLayer','GTM-TPL2JQHT');
     </script>
     <!-- End Google Tag Manager -->
 
@@ -25,35 +38,68 @@
       name="description"
       content="Exchange Buro — обмен криптовалют по лучшему курсу. USDT, BTC, ETH на наличные и обратно. Быстро, безопасно, без комиссий. Работаем 24/7."
     />
+
     <meta
       name="keywords"
-      content="обмен криптовалют, BURExchange BuroO PAY, buropay, USDT, BTC, ETH, криптообменник, обмен наличных, купить биткоин, обмен usdt"
+      content="Exchange Buro, обмен криптовалют, криптообменник, USDT, BTC, ETH, обмен криптовалют на наличные, купить биткоин, обмен USDT, обмен наличных"
     />
+
     <meta name="author" content="Exchange Buro" />
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Exchange Buro — Обмен криптовалют по лучшему курсу" />
+
+    <meta
+      property="og:title"
+      content="Exchange Buro — Обмен криптовалют по лучшему курсу"
+    />
+
     <meta
       property="og:description"
       content="Обмен криптовалют по лучшему курсу. USDT, BTC, ETH на наличные. Быстро, безопасно, без комиссий."
     />
+
     <meta property="og:image" content="/assets/logo.png" />
     <meta property="og:site_name" content="Exchange Buro" />
     <meta property="og:locale" content="ru_RU" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Exchange Buro — Обмен криптовалют по лучшему курсу" />
-    <meta name="twitter:description" content="Обмен криптовалют по лучшему курсу. USDT, BTC, ETH на наличные. Быстро, безопасно, без комиссий." />
+
+    <meta
+      name="twitter:title"
+      content="Exchange Buro — Обмен криптовалют по лучшему курсу"
+    />
+
+    <meta
+      name="twitter:description"
+      content="Обмен криптовалют по лучшему курсу. USDT, BTC, ETH на наличные. Быстро, безопасно, без комиссий."
+    />
+
     <meta name="twitter:image" content="/assets/logo.png" />
 
     <link rel="manifest" href="/manifest.json" />
   </head>
+
   <body>
-    <noscript>Для работы сайта необходимо включить JavaScript.</noscript>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TPL2JQHT"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden">
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <noscript>
+      Для работы сайта необходимо включить JavaScript.
+    </noscript>
+
     <div id="root"></div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
