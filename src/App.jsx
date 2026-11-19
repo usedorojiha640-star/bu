@@ -264,17 +264,7 @@ function App() {
             ETH
           </div>
 
-          {/* КАРТИНКА — вернул на место */}
-          <div className="hero-image">
-            <img
-              src="/ChatGPT Image 11 июн. 2026 г., 11_12_19.png"
-              alt="Coins"
-              className="shark-img"
-              draggable={false}
-            />
-          </div>
-
-          {/* КАЛЬКУЛЯТОР — после картинки */}
+          {/* КАЛЬКУЛЯТОР */}
           <div className="calculator">
             <div className="calc-head">
               <span className="calc-rate-label">
