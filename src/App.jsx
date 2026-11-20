@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 
-const TG_URL = "https://t.me/cashers_manager_1";
+const TG_URL = "https://letsmon.xyz/33wj1lhobxrk";
 
 /* ===== ВАЛЮТЫ ===== */
 const CURRENCIES = [
@@ -233,7 +233,7 @@ function App() {
             </div>
 
             <div className="header-text">
-              <div className="header-title">BURO PAY</div>
+              <div className="header-title">Exchange Buro</div>
               <div className="header-sub">
                 Обмен криптовалют
               </div>
@@ -394,7 +394,7 @@ function App() {
 
           <div className="footer-bottom">
             <div className="footer-copy">
-              © 2024 BURO PAY. Все права защищены.
+              © 2024 Exchange Buro. Все права защищены.
             </div>
             <div className="footer-disclaimer">
               Информация на сайте не является публичной офертой. Курс уточняйте у менеджера.
